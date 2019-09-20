@@ -3,4 +3,6 @@ Configure miss: suncc
 Configure miss: if compiler supports -R
 Configure miss: if debug is enabled
 Configure miss: if zts is enabled
-Configure miss: system libxlsswriter
+Configure miss: system libxlsxwriter
+Configure miss: system libxlsxio
+Configure miss: enable xlsx reader support
