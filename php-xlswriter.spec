@@ -4,7 +4,7 @@
 #
 Name     : php-xlswriter
 Version  : 1.3.3.2
-Release  : 7
+Release  : 8
 URL      : https://pecl.php.net/get/xlswriter-1.3.3.2.tgz
 Source0  : https://pecl.php.net/get/xlswriter-1.3.3.2.tgz
 Summary  : No detailed summary available
@@ -12,6 +12,7 @@ Group    : Development/Tools
 License  : BSD-2-Clause BSD-3-Clause MIT
 Requires: php-xlswriter-lib = %{version}-%{release}
 BuildRequires : buildreq-php
+BuildRequires : pkgconfig(zlib)
 BuildRequires : zlib-dev
 
 %description
@@ -53,4 +54,4 @@ make  %{?_smp_mflags}
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20180731/xlswriter.so
+/usr/lib64/extensions/no-debug-non-zts-20190902/xlswriter.so
