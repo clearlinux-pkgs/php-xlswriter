@@ -1,2 +1,2 @@
-1.3.6
-zlib-dev
+1.4.0
+pkgconfig(zlib)
