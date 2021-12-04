@@ -4,7 +4,7 @@
 #
 Name     : php-xlswriter
 Version  : 1.5.1
-Release  : 23
+Release  : 24
 URL      : https://pecl.php.net/get/xlswriter-1.5.1.tgz
 Source0  : https://pecl.php.net/get/xlswriter-1.5.1.tgz
 Summary  : No detailed summary available
@@ -51,4 +51,4 @@ make  %{?_smp_mflags}
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20200930/xlswriter.so
+/usr/lib64/extensions/no-debug-non-zts-20210902/xlswriter.so
