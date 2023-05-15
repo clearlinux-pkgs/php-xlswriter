@@ -1,6 +1,7 @@
 Configure miss: icc
 Configure miss: if debug is enabled
 Configure miss: if zts is enabled
+Configure miss: openssl MD5
 Configure miss: suncc
 Configure miss: system libxlsxio
 Configure miss: system libxlsxwriter
