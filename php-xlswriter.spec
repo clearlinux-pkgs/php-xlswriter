@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : php-xlswriter
-Version  : 1.5.6
-Release  : 83
-URL      : https://pecl.php.net/get/xlswriter-1.5.6.tgz
-Source0  : https://pecl.php.net/get/xlswriter-1.5.6.tgz
+Version  : 1.5.7
+Release  : 84
+URL      : https://pecl.php.net/get/xlswriter-1.5.7.tgz
+Source0  : https://pecl.php.net/get/xlswriter-1.5.7.tgz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-2-Clause MIT MPL-2.0
@@ -45,10 +45,10 @@ license components for the php-xlswriter package.
 
 
 %prep
-%setup -q -n xlswriter-1.5.6
-cd %{_builddir}/xlswriter-1.5.6
+%setup -q -n xlswriter-1.5.7
+cd %{_builddir}/xlswriter-1.5.7
 pushd ..
-cp -a xlswriter-1.5.6 buildavx2
+cp -a xlswriter-1.5.7 buildavx2
 popd
 
 %build
