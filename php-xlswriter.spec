@@ -7,7 +7,7 @@
 #
 Name     : php-xlswriter
 Version  : 1.5.7
-Release  : 84
+Release  : 85
 URL      : https://pecl.php.net/get/xlswriter-1.5.7.tgz
 Source0  : https://pecl.php.net/get/xlswriter-1.5.7.tgz
 Summary  : No detailed summary available
